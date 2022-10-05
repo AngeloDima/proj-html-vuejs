@@ -16,7 +16,7 @@
 <style lang="scss" scoped>
     #section_three{
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         background-color: rgb(236, 236, 236);
         display: flex;
 
