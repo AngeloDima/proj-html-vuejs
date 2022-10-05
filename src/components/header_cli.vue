@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <p>asd</p>
+    <div id="Sfondo">
+        
     </div>
 </template>
 
@@ -11,5 +11,5 @@
 </script>
 
 <style lang="scss" scoped>
-    
+
 </style>
