@@ -1,7 +1,8 @@
 <template>
-    <div id="Sfondo">
-        
-    </div>
+    <section class="flex">
+        <div class="Sx"></div>
+        <div class="Dx"></div>
+    </section>
 </template>
 
 <script>
@@ -11,5 +12,23 @@
 </script>
 
 <style lang="scss" scoped>
+    .flex{
+        display: flex;
+    }
+
+
+    .Sx{
+        width: 40%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .Dx{
+        width: 60%;
+        height: 100vh;
+        background-image: url(img/slider52x.jpg);
+        background-size: cover;
+    }
+
 
 </style>
