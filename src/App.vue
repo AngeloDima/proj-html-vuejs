@@ -29,7 +29,7 @@ export default {
     section_four,
     section_five,
     section_six,
-}
+  }
 }
 </script>
 
