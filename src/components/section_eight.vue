@@ -1,8 +1,12 @@
 <template>
     <section id="section_eight">
-        <div class="card"></div>
+        <div class="card">
+            <div class="info-card"></div>
+        </div>
         <div class="card-up"></div>
-        <div class="card"></div>
+        <div class="card">
+            <div class="info-card"></div>
+        </div>
     </section>
 </template>
 
@@ -23,7 +27,16 @@
         .card{
             width: 23.5%;
             height: 70%;
-            background-color: red
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .info-card{
+                width: 70%;
+                height: 90%;
+                background-color: white;
+
+            }
         }
         .card-up{
             width: 23.4%;
