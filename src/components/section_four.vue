@@ -9,8 +9,12 @@
                     <div class="info"></div>
                 </div>
             </div>
-            <div class="poster-mini"></div>
-            <div class="poster-mini"></div>
+            <div class="poster-mini">
+                <div class="info-mini"></div>
+            </div>
+            <div class="poster-mini2">
+                <div class="info-mini"></div>
+            </div>
         </div>
 
     </section>
@@ -74,8 +78,30 @@
             .poster-mini{
                 width: 33.5%;
                 height: 40%;
-                background-color: rgb(168, 211, 13);
+                background-image: url(img/info52x.jpg);
+                background-position: 0px -50px;
+                background-size: cover;
                 margin: 0px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .poster-mini2{
+                width: 33.5%;
+                height: 40%;
+                background-image: url(img/info12x.jpg);
+                background-position: 0px -50px;
+                background-size: cover;
+                margin: 0px 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .info-mini{
+                width: 80%;
+                height: 80%;
+                background-color: red;
             }
         }
     }
