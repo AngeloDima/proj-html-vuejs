@@ -23,7 +23,7 @@
         .Sx{
             width: 61%;
             height: 100%;
-            background-image: url(img/slider32x.jpg);
+            background-image: url(img/slider72x-scaled.jpg);
             background-size: cover;
             background-position: top;
         }
