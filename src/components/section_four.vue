@@ -1,6 +1,6 @@
 <template>
     <section id="section_four">
-        <div class="mini_titolo"></div>
+        <div class="mini_titolo"><h1>TITOLO</h1></div>
 
         <div class="container_img">
             <div class="poster">
@@ -32,12 +32,12 @@
         flex-direction: column;
         .mini_titolo{
             width: 100%;
-            height: 10%;
+            height: 5%;
             background-color: rgba(255, 0, 0, 0.432);
         }
         .container_img{
             width: 100%;
-            height: 90%;
+            height: 95%;
             background-color: green;
 
             display: flex;
