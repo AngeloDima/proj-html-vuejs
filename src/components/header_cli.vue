@@ -8,7 +8,7 @@
                 <img src="./img/logo-restaurant.png" alt="">
             </div>
             <div class="info-header">
-                <h1>FINE DINING EXPERIENCE</h1>
+                <h1>FINE DINING <br> EXPERIENCE</h1>
                 <p>Pellentesque vitae viverra risus, sagittis.
                     Venenatis ridiculus scelerisque nisi in urna
                     nulla. Sit tempor a et nisl, ac felis.
@@ -35,6 +35,18 @@
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@300&family=Oswald&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+
     .flex{
         display: flex;
     }
@@ -57,25 +69,34 @@
 
 
         .info-header{
-            width: 70%;
+            width: 60%;
             height: 55%;
-            background-color: red;
+            // background-color: red;
             margin: auto;
             position: relative;
             bottom: 10%;
             h1{
                 color: white;
                 text-align: left;
+                font-size: 5rem;
+                font-family: 'Oswald', sans-serif;
             }
             p{
                 color: rgb(231, 231, 231);
                 text-align: left;
+                font-size: 1.2rem;
+                margin: 35px 70px 20px 0px;
+                font-family: 'Noto Serif Telugu', serif;
+                
             }
             a{
                 color: white;
-                padding: 10px 20px;
+                padding: 10px 55px;
                 border: 1px solid white;
                 text-decoration: none;
+                position: absolute;
+                bottom: 70px;
+                font-family: 'Oswald', sans-serif;
             }
         }
     }
