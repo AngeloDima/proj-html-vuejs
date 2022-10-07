@@ -4,7 +4,9 @@
 
 
         <div class="Sx">
-            <div class="logo"></div>
+            <div class="logo">
+                <img src="./img/logo-restaurant.png" alt="">
+            </div>
             <div class="info-header"></div>
         </div>
 
@@ -37,17 +39,19 @@
         background-color: rgb(0, 0, 0);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
         gap: 15%;
-        .logo{
-            width: 100%;
-            height: 10%;
-            background-color: aqua;
+        .logo img{
+            width: 250px;
+            height: 60px;
+            margin: 20px 20px;
+            // background-color: aqua;
         }
         .info-header{
             width: 80%;
             height: 55%;
             background-color: red;
+            margin: auto;
 
 
 
