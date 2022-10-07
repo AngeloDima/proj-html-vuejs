@@ -10,6 +10,7 @@
     <section_seven />
     <section_eight />
     <section_nine />
+    <footer_cli />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import section_six from './components/section_six.vue'
 import section_seven from './components/section_seven.vue'
 import section_eight from './components/section_eight.vue'
 import section_nine from './components/section_nine.vue'
+import footer_cli from './components/footer_cli.vue'
 
 export default {
   name: 'App',
@@ -38,6 +40,7 @@ export default {
     section_seven,
     section_eight,
     section_nine,
+    footer_cli,
 }
 }
 </script>
