@@ -20,7 +20,18 @@
         <!-- ------------------------------------- -->
 
         <div class="Dx">
-            <div class="menù"></div>
+            <div class="menù">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Culinary History</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Our Menù</a></li>
+                    <li><a href="">Takeout</a></li>
+                    <li><a href="">Bulletin</a></li>
+                    <li><a href="">Reservations</a></li>
+                    <font-awesome-icon icon="fa-duotone fa-cart-shopping" />
+                </ul>
+            </div>
         </div>
 
 
@@ -109,7 +120,25 @@
         .menù{
             width: 100%;
             height: 10%;
-            background-color: rgba(0, 255, 255, 0.534);
+            // background-color: rgba(0, 255, 255, 0.534);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            ul{
+                display: flex;
+                list-style: none;    
+                 
+                li{
+                    margin: 0px 30px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Oswald', sans-serif;
+                         
+                    }
+                }
+            }
         }
     }
 
