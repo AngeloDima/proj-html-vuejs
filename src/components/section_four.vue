@@ -24,12 +24,43 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="poster-mini">
-                <div class="info-mini"></div>
+                
+                <div class="info-mini">
+                    <p>MARY MAXEY</p>
+                        <h1>THE GUARDIAN</h1>
+                        <div class="stelline"></div>
+                        <p>
+                            Non arcu mauris tortor ultrices mollis
+                            tellus euismod fermentum. Habitant amet
+                            tincidunt id sapien accumsan sed.
+                        </p>
+                        <a href="#">READ FULL ARTICLE</a>
+                        
+                </div>
+                
             </div>
+
+
+
             <div class="poster-mini2">
-                <div class="info-mini"></div>
+                <div class="info-mini">
+                    <p>PATRICK MONROE</p>
+                        <h1>GLOBE AND MAIL</h1>
+                        <div class="stelline"></div>
+                        <p>
+                            Vivamus magna justo, lacinia eget
+                            consectetur sed, convallis at tellus. Nulla
+                            porttitor accumsan tincidunt.
+                        </p>
+                        <a href="#">READ FULL ARTICLE</a>
+                </div>
             </div>
+
+
+
         </div>
 
     </section>
@@ -77,7 +108,7 @@ p{
         .container_img{
             width: 100%;
             height: 95%;
-            background-color: green;
+            // background-color: green;
 
             display: flex;
             flex-wrap: wrap;
@@ -86,7 +117,7 @@ p{
             .poster{
                 width: 70%;
                 height: 50%;
-                background-color: wheat;
+                // background-color: wheat;
                 display: flex;
                 .Sx{
                     width: 50%;
@@ -153,6 +184,7 @@ p{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
             }
 
             .poster-mini2{
@@ -166,10 +198,39 @@ p{
                 justify-content: center;
                 align-items: center;
             }
-            .info-mini{
-                width: 80%;
+            .info-mini, .info-mini2{
+                width: 60%;
                 height: 80%;
-                background-color: red;
+                // background-color: red;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 40px;
+                p:first-child{
+                    font-size: 0.9rem;
+                    color: white;
+                }
+                p:nth-child(4){
+                    color: white;
+                    font-size: 1.1rem;
+                }
+                h1{
+                    color: white;
+                    font-size: 2.8rem;
+                    font-family: 'Oswald', sans-serif;
+                }
+                .stelline{
+                     width: 100px;
+                     height: 30px;
+                    background-color: aliceblue;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    padding: 12px 25px;
+                    border: 1px solid white;
+                    width: 59%;
+                }
             }
         }
     }
