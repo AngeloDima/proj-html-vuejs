@@ -1,12 +1,27 @@
 <template>
     <section id="section_four">
-        <div class="mini_titolo"><h1>TITOLO</h1></div>
+        <div class="mini_titolo">
+            <h1>What critics are sayng about us</h1>
+        </div>
 
         <div class="container_img">
             <div class="poster">
                 <div class="Sx"></div>
                 <div class="Dx">
-                    <div class="info"></div>
+                    <div class="info">
+                        <p>MEGGY STEWART</p>
+                        <h1>NEW YORK TIMES</h1>
+                        <div class="stelline"></div>
+                        <p>Non areu mauris tortor ultrices mollis tellus
+                            eusmod fermentum. Habitant amet tincidunt
+                            id sapien accumsan sed at.
+                        </p>
+                        <p>
+                            Mmalesuada ullamcorper amet. Pretium
+                            pretium dignissim nisi.
+                        </p>
+                        <a href="#">READ FULL ARTICLE</a>
+                    </div>
                 </div>
             </div>
             <div class="poster-mini">
@@ -27,17 +42,37 @@
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@300&family=Oswald&display=swap');
+
+h1{
+    font-family: 'Noto Serif Telugu', serif;
+}
+p{
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+
+
+
+
+
+
+
     #section_four{
         width: 100%;
         height: 180vh;
-        background-color: rgba(0, 202, 252, 0.342);
+        // background-color: rgba(0, 202, 252, 0.342);
 
         display: flex;
         flex-direction: column;
         .mini_titolo{
             width: 100%;
             height: 5%;
-            background-color: rgba(255, 0, 0, 0.432);
+            // background-color: rgba(255, 0, 0, 0.432);
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .container_img{
             width: 100%;
@@ -68,10 +103,43 @@
                     align-items: center;
                      
                     .info{
-                        width: 80%;
+                        width: 60%;
                         height: 80%;
-                        background-color: red;
-                        color: white;
+                        // background-color: red;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 50px;
+                        p:first-child{
+                            font-size: 0.9rem;
+                            color: white;
+                        }
+                        h1{
+                            color: white;
+                            font-size: 2.8rem;
+                            font-family: 'Oswald', sans-serif;
+                        }
+                        .stelline{
+                            width: 100px;
+                            height: 30px;
+                            background-color: aliceblue;
+                        }
+                        p:nth-child(4){
+                            color: rgb(255, 255, 255);
+                            font-size: 1.1rem;
+                        }
+                        p:nth-child(5){
+                            color: rgb(255, 255, 255);
+                            font-size: 1.1rem;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            padding: 12px 25px;
+                            border: 1px solid white;
+                            width: 59%;
+                            
+                        }
                     }
                 }
             }
