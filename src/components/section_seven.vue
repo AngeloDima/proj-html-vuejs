@@ -3,13 +3,13 @@
         <div class="Sx"></div>
         <div class="Dx">
             <div class="info">
-                <p>FINE DINING EXPERIENCE</p>
-                <h1>THE BEST TABLE IN TOWN</h1>
+                <p>ENJOY YOUR MEAL AT HOME</p>
+                <h1>TAKEOUT NOW AVAILABLE</h1>
                 <p>Pellentesque vitae viverra risus, sagittis.
                     Venenatis ridiculus scelerisque nisi in urna
-                    nulla.
+                    nulla non arci moris tortor.
                 </p>
-                <a href="#">EXPLORE THE MENU</a>
+                <a href="#">VIEW TAKEOUT MENU</a>
             </div>
         </div>
     </section>
@@ -69,7 +69,7 @@
                     color: white;
                     padding: 12px 25px;
                     border: 1px solid white;
-                    width: 59%;
+                    width: 60%;
                 }
             }
         }
