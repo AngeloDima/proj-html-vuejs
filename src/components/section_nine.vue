@@ -2,7 +2,18 @@
     <section id="section_nine">
         <div class="banner">
             <div class="box-info">
-                <div class="info"></div>
+                <div class="info">
+
+                    <h1>THE BEST TABLE IN TOWN</h1>
+
+                    <p>Pretium accumsan porttitor viverra leo
+                        gravida mollis imperdiet. Fringilla nibh
+                        pharetra sociis leo amet.
+                    </p>
+
+                    <a href="#">VIEW IN THE MENU</a>
+
+                </div>
             </div>
         </div>
     </section>
@@ -31,7 +42,7 @@
             .box-info{
                 width: 30%;
                 height: 80%;
-                background-color: red;
+                background-color: black;
                 position: absolute;
                 left: 15%;
                 bottom: 50%;
@@ -42,8 +53,28 @@
                 .info{
                     width: 80%;
                     height: 80%;
-                    background-color: white;
-
+                    // background-color: white;
+                    display: flex;
+                justify-content: center;
+                
+                flex-direction: column;
+                gap: 50px;
+                p{
+                    font-size: 0.9rem;
+                    color: white;
+                }
+                h1{
+                    color: white;
+                    font-size: 2.8rem;
+                    margin: 100px 0px;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    padding: 12px 25px;
+                    border: 1px solid white;
+                    width: 45%;
+                }
                 }
             }
         }
