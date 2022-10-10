@@ -3,7 +3,7 @@
         
         <div class="container-card">
 
-            <div class="title"><h2>Latest news & promotions</h2></div>
+            <div class="title"><p>Latest news & promotions</p></div>
             <div class="card">
                 <img src="./img/blog92x-1200x1375.jpg" alt="">
                 <div class="info-card">
@@ -40,6 +40,24 @@
 </script>
 
 <style lang="scss" scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+p{
+    font-family: 'Noto Serif Telugu', serif;
+}
+h2, h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
     #section_six{
         width: 100%;
         height: 110vh;
@@ -63,11 +81,12 @@
                 position: absolute;
                 top: 0;
                 padding-top: 25px;
+                font-size: 2.7rem;
                 // background-color: red;
                 
              }
             .card{
-                width: 21.4%;
+                width: 25%;
                 height: 75%;
                 //  background-color: aqua;
                 display: flex;
@@ -88,6 +107,13 @@
                     flex-direction: column;
                     gap: 15px;
                     padding-top: 25px;
+                    h3{
+                        font-size: 1.7rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+
                 }
             }
         }
