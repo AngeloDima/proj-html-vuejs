@@ -123,7 +123,7 @@ p{
             justify-content: center;
             align-items: center;
             .poster{
-                width: 70%;
+                width: 80.5%;
                 height: 50%;
                 // background-color: wheat;
                 display: flex;
@@ -183,12 +183,12 @@ p{
                 }
             }
             .poster-mini{
-                width: 33.5%;
-                height: 40%;
+                width: 38%;
+                height: 45%;
                 background-image: url(img/info52x.jpg);
                 background-position: 0px -50px;
                 background-size: cover;
-                margin: 0px 20px;
+                margin: 0px 40px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -197,12 +197,12 @@ p{
 
 
             .poster-mini2{
-                width: 33.5%;
-                height: 40%;
+                width: 38%;
+                height: 45%;
                 background-image: url(img/info12x.jpg);
                 background-position: 0px -50px;
                 background-size: cover;
-                margin: 0px 20px;
+                margin: 0px 40px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
