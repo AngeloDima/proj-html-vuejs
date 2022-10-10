@@ -22,6 +22,23 @@
 </script>
 
 <style lang="scss" scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+p, a{
+    font-family: 'Noto Serif Telugu', serif;
+}
+h2, h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
     #section_three{
         width: 100%;
         height: 90vh;
@@ -46,7 +63,9 @@
             .info{
                 width: 50%;
                 height: 80%;
-                // background-color: rgba(255, 0, 0, 0.616);
+                //  background-color: rgba(255, 0, 0, 0.616);
+
+
                 display: flex;
                 justify-content: center;
                 
@@ -69,7 +88,7 @@
                     color: white;
                     padding: 12px 25px;
                     border: 1px solid white;
-                    width: 60%;
+                    width: 62%;
                 }
             }
         }
