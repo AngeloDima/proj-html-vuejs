@@ -37,9 +37,9 @@
                             tellus euismod fermentum. Habitant amet
                             tincidunt id sapien accumsan sed.
                         </p>
-                        <a href="#">READ FULL ARTICLE</a>
-                        
+                        <a href="#">READ FULL ARTICLE</a>   
                 </div>
+                <div class="effect"></div>
                 
             </div>
 
@@ -57,6 +57,7 @@
                         </p>
                         <a href="#">READ FULL ARTICLE</a>
                 </div>
+                <div class="effect"></div>
             </div>
 
 
@@ -84,7 +85,14 @@ p{
 }
 
 
-
+.effect{
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.349);
+                position: absolute;
+                bottom: 0;
+                box-shadow: 0px 290px 70px -40px inset rgb(0, 0, 0);;
+            }
 
 
 
@@ -187,6 +195,7 @@ p{
                 position: relative;
             }
 
+
             .poster-mini2{
                 width: 33.5%;
                 height: 40%;
@@ -197,6 +206,7 @@ p{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
             }
             .info-mini, .info-mini2{
                 width: 60%;
@@ -206,6 +216,7 @@ p{
                 justify-content: center;
                 flex-direction: column;
                 gap: 40px;
+                z-index: 100;
                 p:first-child{
                     font-size: 0.9rem;
                     color: white;
