@@ -6,13 +6,15 @@
 
                     <h1>BRAISED <br> ABALONE</h1>
                     <div id="price">$52</div>
-
+                    
                     <p>Pretium accumsan porttitor viverra leo
                         gravida mollis imperdiet. Fringilla nibh
                         pharetra sociis leo amet.
                     </p>
 
                     <a href="#">VIEW IN THE MENU</a>
+                    <div class="sbarra"></div>
+                    
 
                 </div>
             </div>
@@ -79,6 +81,8 @@ h1{
                 
                 flex-direction: column;
                 gap: 50px;
+
+
                 #price{
                     color: white;
                     position: absolute;

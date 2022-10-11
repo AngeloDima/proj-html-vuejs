@@ -23,6 +23,7 @@
                     EXPLORE THE MENU
                 </a>
             </div>
+            <div class="sbarra"></div>
         </div>
 
         <!-- -----CARD TWO---- -->
@@ -48,6 +49,7 @@
                     MAKE A RESERVATION
                 </a>
             </div>
+            <div class="sbarra"></div>
         </div>
 
         <!-- -----CARD THREE---- -->
@@ -73,6 +75,7 @@
                     LEARN MORE ABOUT US
                 </a>
             </div>
+            <div class="sbarra"></div>
         </div>
 
 
@@ -99,7 +102,14 @@ p{
     font-family: 'Noto Serif Telugu', serif;
 }
 
-
+.sbarra{
+    width: 90px;
+    height: 2px;
+    background-color: rgb(202, 202, 202);
+    position: relative;
+    bottom: 220px;
+    margin: auto;
+}
 
 
     #section_two{
@@ -119,7 +129,7 @@ p{
             .card-img{
                 width: 100%;
                 height: 30%;
-                // background-color: red;
+                //  background-color: red;
                 display: flex;
                 justify-content: center;
                 img{
@@ -129,14 +139,16 @@ p{
             .card-title{
                 width: 100%;
                 height: 15%;
-                //  background-color: rgba(255, 0, 0, 0.699);
+                // background-color: rgba(255, 0, 0, 0.699);
                 display: flex;
                 justify-content: center;
                 position: relative;
+                
                 h1{
                     font-size: 2rem;
                     position: absolute;
                     bottom: 0;
+                    
                 }
             }
             .card-info{
@@ -149,6 +161,7 @@ p{
                 p{
                     text-align: center;
                     font-size: 1.2rem;
+                    margin-top: 80px;
                     
                 }
             }
@@ -164,6 +177,7 @@ p{
                     border: 1px solid rgb(216, 216, 216);
                     text-decoration: none;
                     color: black;
+                    margin-top: 30px;
                 }
             }
         }

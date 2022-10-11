@@ -8,13 +8,16 @@
                 <img src="./img/logo-restaurant.png" alt="">
             </div>
             <div class="info-header">
+                <p>THE BEST TABLE IN TOWN</p>
                 <h1>FINE DINING <br> EXPERIENCE</h1>
                 <p>Pellentesque vitae viverra risus, sagittis.
                     Venenatis ridiculus scelerisque nisi in urna
                     nulla. Sit tempor a et nisl, ac felis.
                 </p>
                 <a href="#">EXPLORE THE MENU</a>
+                
             </div>
+            <div class="sbarra"></div>
         </div>
 
         <!-- ------------------------------------- -->
@@ -56,7 +59,15 @@
     box-sizing: border-box;
     }
 
-
+.sbarra{
+    width: 60px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.521);
+    position: relative;
+    bottom: 723px;
+    left: 50px;
+      
+}
 
     .flex{
         display: flex;
@@ -87,7 +98,7 @@
             position: relative;
             bottom: 10%;
             h1{
-                color: white;
+                color: rgb(255, 255, 255);
                 text-align: left;
                 font-size: 5rem;
                 font-family: 'Oswald', sans-serif;
@@ -106,7 +117,7 @@
                 border: 1px solid white;
                 text-decoration: none;
                 position: absolute;
-                bottom: 70px;
+                bottom: 0px;
                 font-family: 'Oswald', sans-serif;
             }
         }
@@ -133,7 +144,7 @@
                     margin: 0px 30px;
                     a{
                         text-decoration: none;
-                        color: white;
+                        color: rgba(255, 255, 255, 0.897);
                         font-family: 'Oswald', sans-serif;
                          
                     }

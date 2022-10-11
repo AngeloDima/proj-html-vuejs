@@ -11,7 +11,15 @@
                     <div class="info">
                         <p>MEGGY STEWART</p>
                         <h1>NEW YORK TIMES</h1>
-                        <div class="stelline"></div>
+                        <div class="stelline">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+
+                        
                         <p>Non areu mauris tortor ultrices mollis tellus
                             eusmod fermentum. Habitant amet tincidunt
                             id sapien accumsan sed at.
@@ -21,6 +29,7 @@
                             pretium dignissim nisi.
                         </p>
                         <a href="#">READ FULL ARTICLE</a>
+                        <div class="sbarra"></div>
                     </div>
                 </div>
             </div>
@@ -31,13 +40,20 @@
                 <div class="info-mini">
                     <p>MARY MAXEY</p>
                         <h1>THE GUARDIAN</h1>
-                        <div class="stelline"></div>
+                        <div class="stelline">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
                         <p>
                             Non arcu mauris tortor ultrices mollis
                             tellus euismod fermentum. Habitant amet
                             tincidunt id sapien accumsan sed.
                         </p>
                         <a href="#">READ FULL ARTICLE</a>   
+                        <div class="sbarra2"></div>
                 </div>
                 <div class="effect"></div>
                 
@@ -49,13 +65,20 @@
                 <div class="info-mini">
                     <p>PATRICK MONROE</p>
                         <h1>GLOBE AND MAIL</h1>
-                        <div class="stelline"></div>
+                        <div class="stelline">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
                         <p>
                             Vivamus magna justo, lacinia eget
                             consectetur sed, convallis at tellus. Nulla
                             porttitor accumsan tincidunt.
                         </p>
                         <a href="#">READ FULL ARTICLE</a>
+                        <div class="sbarra2"></div>
                 </div>
                 <div class="effect"></div>
             </div>
@@ -85,6 +108,21 @@ p{
 }
 
 
+.sbarra{
+    width: 100px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.521);
+    position: relative;
+    bottom: 350px;
+}
+
+.sbarra2{
+    width: 100px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.521);
+    position: relative;
+    bottom: 235px;
+}
 .effect{
                 width: 100%;
                 height: 100%;
@@ -159,9 +197,11 @@ p{
                             font-family: 'Oswald', sans-serif;
                         }
                         .stelline{
-                            width: 100px;
+                            font-size: 1.8rem;
                             height: 30px;
-                            background-color: aliceblue;
+                            color: white;
+                            position: relative;
+                            bottom: 30px;
                         }
                         p:nth-child(4){
                             color: rgb(255, 255, 255);
@@ -193,6 +233,13 @@ p{
                 justify-content: center;
                 align-items: center;
                 position: relative;
+                .stelline{
+                            font-size: 1.8rem;
+                            height: 30px;
+                            color: white;
+                            position: relative;
+                            bottom: 30px;
+                        }
             }
 
 
@@ -207,6 +254,13 @@ p{
                 justify-content: center;
                 align-items: center;
                 position: relative;
+                .stelline{
+                            font-size: 1.8rem;
+                            height: 30px;
+                            color: white;
+                            position: relative;
+                            bottom: 30px;
+                        }
             }
             .info-mini, .info-mini2{
                 width: 60%;
@@ -233,7 +287,7 @@ p{
                 .stelline{
                      width: 100px;
                      height: 30px;
-                    background-color: aliceblue;
+                    
                 }
                 a{
                     text-decoration: none;
